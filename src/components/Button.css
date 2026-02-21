@@ -1,0 +1,33 @@
+.btn-container{
+    width: 400px;
+    height: 400px;
+    background-color: #454545;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:0px 0px 30px 30px;      /* add this */
+    overflow: hidden;         /* important */
+}
+.btn-group{
+    display: flex;
+}
+.btn{
+    width: 100px;
+    border: none;
+    /* height: 40px; */
+    transition: .5s;
+    font-size: 20px;
+
+}
+.btn-long{
+    width: 300px;
+    background-color: orange;
+}
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+.btn-code-lab{
+    background-color: black;
+    color: white;
+
+}
